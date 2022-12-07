@@ -10,3 +10,4 @@ class Correct_n(Whiteball_n, Userball_n):
         for i in self.whiteball_numbers:
             if i in self.user_numbers:
                 self.correct_num += 1
+

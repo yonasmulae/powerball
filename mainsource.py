@@ -10,24 +10,24 @@ class Price(Correct_n, Powerball_n):
         self.powerball_number()
         print("\n\t\t\t\t- The same amount numbers are ", self.correct_num)
         if self.correct_num == 5 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- 5 Correct White Balls and The Powerball: $324,000,000")
+            print(Fore.GREEN, "\n\t\t\t\t- 5 Correct White Balls and The Powerball: $324,000,000", Fore.RESET)
         elif self.correct_num == 5 and self.whiteball_numbers != self.user_numbers:
-            print("\n\t\t\t\t- 5 Correct White Balls, but no Powerball: $1,000,000")
+            print(Fore.GREEN, "\n\t\t\t\t- 5 Correct White Balls, but no Powerball: $1,000,000", Fore.RESET)
         elif self.correct_num == 4 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- 4 Correct White Balls and The Powerball: $10,000")
+            print(Fore.GREEN, "\n\t\t\t\t- 4 Correct White Balls and The Powerball: $10,000", Fore.RESET)
         elif self.correct_num == 4 and self.whiteball_numbers != self.user_numbers:
-            print("\n\t\t\t\t- 4 Correct White Balls, but no Powerball: $100")
+            print(Fore.GREEN, "\n\t\t\t\t- 4 Correct White Balls, but no Powerball: $100", Fore.RESET)
         elif self.correct_num == 3 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- 3 Correct White Balls and The Powerball: $100")
+            print(Fore.GREEN, "\n\t\t\t\t- 3 Correct White Balls and The Powerball: $100", Fore.RESET)
         elif self.correct_num == 3 and self.whiteball_numbers != self.user_numbers:
-            print("\n\t\t\t\t- 3 Correct White Balls, but no Powerball: $7")
+            print(Fore.GREEN, "\n\t\t\t\t- 3 Correct White Balls, but no Powerball: $7", Fore.RESET)
         elif self.correct_num == 2 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- 2 Correct White Balls and The Powerball: $7")
+            print(Fore.GREEN, "\n\t\t\t\t- 2 Correct White Balls and The Powerball: $7", Fore.RESET)
         elif self.correct_num == 1 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- 1 Correct White Balls and The Powerball: $4")
+            print(Fore.GREEN, "\n\t\t\t\t- 1 Correct White Balls and The Powerball: $4", Fore.RESET)
         elif self.correct_num == 0 and self.whiteball_numbers == self.user_numbers:
-            print("\n\t\t\t\t- No White Balls and The Powerball: $4")
-
+            print(Fore.GREEN, "\n\t\t\t\t- No White Balls and The Powerball: $4", Fore.RESET)
+            # self.correct_num == 0
         else:
             print(Fore.GREEN, "\n\t\t\t\t- Try again!", Fore.RESET)
 

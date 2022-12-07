@@ -1,4 +1,5 @@
 # powerball
+
 Python Programming Project
 Powerball
 General Instructions: 
@@ -9,18 +10,18 @@ General Instructions:
 •	All identical work will result in zero points for all parties involved. 
 •	Your instructor can help with the explanation of this assignment but won’t help with debugging your code. 
 Instructions in detail: 
-Part I: Assignment file structure (15 points) 
-•	Create a folder called powerball (1 point) 
-•	Inside the powerball folder, you need to create a subfolder according what we have learned so far. (2 point).
-•	 The project must be implemented in OOP (12 point)
+Part I: Assignment file structure 
+•	Create a folder called powerball 
+•	Inside the powerball folder, you need to create a subfolder according what we have learned so far.
+•	 The project must be implemented in OOP.
 •	Use comment in the relevant areas – Mandatory requirement.
 
   
-Part II:  The READ ME header information: (6 points) 
-•	The READ ME file must have a document type so that a user’s browser knows what version is used. (1 point) 
+Part II:  The READ ME header information: 
+•	The READ ME file must have a document type so that a user’s browser knows what version is used. 
 •	The READ ME file  must include all data , and metadata: 
-o	Title – PowerBall Project (1 point)   
-o	Metadata: description , keywords, and author. Author name is your full name. (4 points)   
+o	Title – PowerBall Project    
+o	Metadata: description , keywords, and author. Author name is your full name.  
 Part III: How does the Powerball game work in this assignment?
 •	The Powerball game in this assignment works differently from the real one like Mega Millions to get more chances to get favorite results. 
 •	The Powerball game includes two parts. 
@@ -35,16 +36,16 @@ Every time you run your program/page, your  would display the winning numbers, a
 
 Sometimes if I am lucky, I can get this one: 
  
-Grading: Today’s Powerball Winning Numbers (27 points) 
-•	The first five numbers (purple) are random numbers drawn from 20 numbers (11 points) – hard code results in zero points. 
-•	The first five numbers (purple) should be in ascending order (11 points) - hard code results in zero points.
-•	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10. (5 points) - hard code results in zero points.
-Grading: Your lucky numbers: (32 points) 
-•	The first five numbers (purple) are random numbers drawn from 20 numbers (12 points) – hard code results in zero points. 
-•	The first five numbers (purple) should be in ascending order (15 points)  - hard code results in zero points.
-•	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10 inclusively. (5 points) - hard code results in zero points.
+Grading: Today’s Powerball Winning Numbers
+•	The first five numbers (purple) are random numbers drawn from 20 numbers – hard code results in zero points. 
+•	The first five numbers (purple) should be in ascending order - hard code results in zero points.
+•	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10. - hard code results in zero points.
+Grading: Your lucky numbers: 
+•	The first five numbers (purple) are random numbers drawn from 20 numbers – hard code results in zero points. 
+•	The first five numbers (purple) should be in ascending order  - hard code results in zero points.
+•	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10 inclusively. - hard code results in zero points.
 
-Part IV: Use if or switch conditional statements to display the result based on your lucky numbers and winning numbers. (20 points) 
+Part IV: Use if or switch conditional statements to display the result based on your lucky numbers and winning numbers.
 •	Correct White Balls and the Powerball: Jackpot $324,000,000
 •	5 Correct White Balls, but no Powerball: $1,000,000
 •	4 Correct White Balls and the Powerball: $10,000
