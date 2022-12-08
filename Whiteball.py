@@ -18,4 +18,4 @@ class Whiteball_n:
 
 
 w_ball = Whiteball_n()
-# w_ball.whiteball_num()
+

@@ -1,5 +1,5 @@
 import random
-from colorama import Fore
+
 
 
 class Userball_n:
@@ -16,4 +16,4 @@ class Userball_n:
 
 
 u_ball = Userball_n()
-# u_ball.userball_num()
+

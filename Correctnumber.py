@@ -6,7 +6,6 @@ class Correct_n(Whiteball_n, Userball_n):
     correct_num = 0
 
     def correct_number(self):
-        # correct_num = 0
         self.whiteball_num()
         self.userball_num()
         for i in self.whiteball_numbers:
@@ -16,4 +15,4 @@ class Correct_n(Whiteball_n, Userball_n):
 
 
 c = Correct_n()
-# c.correct_number()
+

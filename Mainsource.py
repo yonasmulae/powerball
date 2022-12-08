@@ -39,4 +39,4 @@ class Price(Correct_n):
 
 
 price_a = Price()
-price_a.Pricefunction()
+Price.Pricefunction()
