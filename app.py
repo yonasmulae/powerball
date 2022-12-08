@@ -1,4 +1,4 @@
-from mainsource import Price
+from Mainsource import Price
 
 
 def app():
